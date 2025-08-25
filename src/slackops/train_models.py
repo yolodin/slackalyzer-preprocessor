@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Training script for ML models in SlackOPS-Preprocessor.
+Training script for AI models in Hermes Communication Intelligence System.
 """
 
 import json
@@ -313,7 +313,7 @@ def demonstrate_models():
 
 def main():
     """Main function for training script."""
-    parser = argparse.ArgumentParser(description="Train ML models for SlackOPS-Preprocessor")
+    parser = argparse.ArgumentParser(description="Train AI models for Hermes Communication Intelligence System")
     parser.add_argument("--data-file", type=str, help="Path to training data file")
     parser.add_argument("--synthetic", action="store_true", help="Use synthetic training data")
     parser.add_argument("--classify-only", action="store_true", help="Train only classification models")

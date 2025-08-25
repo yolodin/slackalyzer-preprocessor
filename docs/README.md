@@ -1,10 +1,10 @@
-# SlackOPS Preprocessor
+# Hermes Communication Intelligence System
 
-This repository contains the backend pipeline for processing Slack support threads from help channels. It's the first stage of a system designed to analyze support interactions, extract insights, and identify automation opportunities in engineering environments.
+Hermes is an AI-powered communication intelligence platform that processes Slack conversations to extract actionable insights. Named after the Greek god of communication, this system analyzes support interactions, identifies patterns, and discovers automation opportunities in engineering environments.
 
 ## Overview
 
-The preprocessor takes raw Slack export data and transforms it into structured, analyzable information. It performs thread formatting, summarization, intent classification, and timing analysis to prepare data for downstream analytics and machine learning workflows.
+Hermes takes raw Slack export data and transforms it into structured, analyzable intelligence. It performs thread formatting, AI-powered summarization, intent classification, and timing analysis to deliver actionable insights for team optimization and automation discovery.
 
 ## Features
 
@@ -18,14 +18,18 @@ The preprocessor takes raw Slack export data and transforms it into structured, 
 ## Project Structure
 
 ```
-SlackOPS-Preprocessor/
-├── run_pipeline.py          # Main execution script
-├── preprocess.py            # Message formatting and metadata extraction
-├── summarize.py             # Thread summarization logic
-├── classify.py              # Intent detection and classification
-├── data/
-│   └── slack_export_sample.json  # Sample data for testing
-└── README.md
+Hermes/
+├── start_hermes.py          # 🚀 Main startup script
+├── src/slackops/            # Core AI processing engine
+│   ├── preprocess.py        # Message formatting and metadata extraction
+│   ├── summarize.py         # Thread summarization logic
+│   ├── classify.py          # Intent detection and classification
+│   ├── summarize_ml.py      # AI-powered summarization
+│   └── classify_ml.py       # ML-based intent classification
+├── web-dashboard/           # Modern React frontend
+├── data/                    # Slack export files
+├── scripts/                 # Processing pipelines
+└── docs/                    # Comprehensive documentation
 ```
 
 ## Installation
@@ -33,19 +37,25 @@ SlackOPS-Preprocessor/
 This project requires Python 3.7 or higher. Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yolodin/SlackOPS-Preprocessor
-cd SlackOPS-Preprocessor
-# No additional dependencies required - uses Python standard library
+git clone <your-repository-url>
+cd Hermes
+
+# Quick start - runs everything automatically
+python3 start_hermes.py
 ```
 
 ## Usage
 
-### Basic Usage
+### Quick Start
 
-Run the pipeline with the sample data:
+Launch the complete Hermes system:
 
 ```bash
-python3 run_pipeline.py
+# Start web dashboard and API server
+python3 start_hermes.py
+
+# Or use command-line processing
+python3 scripts/run_pipeline_ml.py --use-ml
 ```
 
 ### Input Format
@@ -143,10 +153,17 @@ Processing time scales approximately linearly with thread count. Typical perform
 - 1000 threads: ~20-30 seconds
 - Memory usage: <50MB for typical datasets
 
-## Future Enhancements
+## Advanced Features
 
-- Machine learning-based classification models
-- Advanced NLP summarization techniques
-- Integration with external APIs for enhanced analysis
-- Real-time processing capabilities
-- Custom output format options
+✅ **Already Implemented:**
+- Machine learning-based classification (DistilBERT, MiniLM)
+- Advanced NLP summarization (BART, T5, sentence transformers)
+- Modern web dashboard with real-time monitoring
+- RESTful API for external integration
+- Multi-format Slack data adapter
+
+🚀 **Future Enhancements:**
+- Real-time Slack integration
+- Multi-language support
+- Predictive analytics
+- Integration with ticketing systems

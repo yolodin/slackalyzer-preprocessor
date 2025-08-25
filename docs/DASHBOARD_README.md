@@ -1,6 +1,6 @@
-# SlackOPS-Preprocessor Web Dashboard
+# Hermes Web Dashboard
 
-A modern, responsive web dashboard for the SlackOPS-Preprocessor system. This dashboard provides real-time monitoring of data processing, analytics visualization, and system management capabilities.
+A modern, responsive web dashboard for the Hermes Communication Intelligence System. This dashboard provides real-time monitoring of AI processing, analytics visualization, and system management capabilities.
 
 ## Features
 
@@ -33,15 +33,22 @@ A modern, responsive web dashboard for the SlackOPS-Preprocessor system. This da
 - Node.js 16+
 - npm
 
+### Easiest Method
+```bash
+# Start the complete Hermes system
+python3 start_hermes.py
+```
+
 ### Installation & Running
 
 1. **Quick Start (Recommended)**:
    ```bash
-   python3 run_dashboard.py
+   python3 start_hermes.py
    ```
    
    This will:
-   - Check dependencies
+   - Check dependencies automatically
+   - Install required packages
    - Set up initial data
    - Start both API and frontend servers
    - Open the dashboard at http://localhost:3000
@@ -124,15 +131,15 @@ A modern, responsive web dashboard for the SlackOPS-Preprocessor system. This da
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Next.js UI    │    │   Flask API     │    │   Python ML     │
-│   (Port 3000)   │◄──►│   (Port 8000)   │◄──►│   Pipeline      │
+│   React UI      │    │   Flask API     │    │   Hermes AI     │
+│   (Port 3000)   │◄──►│   (Port 8000)   │◄──►│   Engine        │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
         │                       │                       │
         │                       │                       │
         ▼                       ▼                       ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   TailwindCSS   │    │   REST API      │    │   Transformers  │
-│   Components    │    │   CORS Enabled  │    │   scikit-learn  │
+│   TailwindCSS   │    │   REST API      │    │   BERT/BART     │
+│   Lucide Icons  │    │   CORS Enabled  │    │   Transformers  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 

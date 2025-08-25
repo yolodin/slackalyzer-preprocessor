@@ -1,10 +1,10 @@
-# SlackOPS-Preprocessor ML Enhancements
+# Hermes AI & Machine Learning Capabilities
 
-This document covers the machine learning enhancements to the SlackOPS-Preprocessor, including ML-based classification and NLP summarization capabilities.
+This document covers the advanced AI and machine learning features in Hermes, including transformer-based classification and neural summarization capabilities.
 
 ## Overview
 
-The ML enhancements provide improvements over the original rule-based system:
+Hermes AI capabilities provide significant improvements over traditional rule-based systems:
 
 - ML-based classification using transformer models (BERT, DistilBERT) or lightweight sentence embeddings
 - NLP summarization with both extractive and abstractive approaches using BART, T5, and sentence transformers
@@ -337,12 +337,13 @@ synthetic_data = create_synthetic_training_data(1000)
 
 ## License
 
-This project maintains the same license as the original SlackOPS-Preprocessor.
+This project maintains the same license as the Hermes Communication Intelligence System.
 
 ## Support
 
-For issues related to ML enhancements:
-1. Check the troubleshooting section
+For issues related to Hermes AI features:
+1. Check the troubleshooting section in HERMES_SETUP_GUIDE.md
 2. Verify dependencies are installed correctly
 3. Test with synthetic data first
-4. Check GPU/CPU compatibility 
+4. Check GPU/CPU compatibility
+5. Use the web dashboard for easier troubleshooting 

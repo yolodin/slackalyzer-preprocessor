@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Startup script for SlackOPS-Preprocessor Dashboard.
-Runs both the Python API backend and Next.js frontend.
+Startup script for Hermes Dashboard.
+Runs both the Python API backend and React frontend.
 """
 
 import os
@@ -118,7 +118,7 @@ def setup_data():
 def main():
     """Main function to orchestrate the startup."""
     print("=" * 60)
-    print("🔧 SlackOPS-Preprocessor Dashboard Startup")
+    print("🔧 Hermes Communication Intelligence Dashboard")
     print("=" * 60)
     
     # Check dependencies
