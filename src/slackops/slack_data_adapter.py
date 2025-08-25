@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Slack Data Adapter for SlackOPS-Preprocessor.
+Slack Data Adapter for Hermes Communication Intelligence System.
 
 This adapter handles various Slack export formats and converts them
-to the standardized format expected by the ML pipeline without modifying
+to the standardized format expected by the AI pipeline without modifying
 any existing code.
 """
 

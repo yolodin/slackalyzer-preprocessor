@@ -1,7 +1,7 @@
 {
-  "name": "slackops-dashboard",
+  "name": "hermes-dashboard",
   "version": "1.0.0",
-  "description": "Web dashboard for SlackOPS-Preprocessor system",
+  "description": "Web dashboard for Hermes Communication Intelligence System",
   "private": true,
   "scripts": {
     "dev": "next dev",

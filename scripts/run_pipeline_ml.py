@@ -216,7 +216,7 @@ def compare_processing_methods(threads: List[Dict[str, Any]], max_threads: int =
 
 def main():
     """Main function that orchestrates the enhanced pipeline."""
-    parser = argparse.ArgumentParser(description="Enhanced SlackOPS-Preprocessor with ML capabilities")
+    parser = argparse.ArgumentParser(description="Hermes Communication Intelligence System with AI capabilities")
     parser.add_argument("--data-file", type=str, default="data/slack_export_sample.json",
                        help="Path to Slack export JSON file")
     parser.add_argument("--use-ml", action="store_true", 

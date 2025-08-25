@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Evaluation script for ML models in SlackOPS-Preprocessor.
+Evaluation script for AI models in Hermes Communication Intelligence System.
 """
 
 import json
@@ -458,7 +458,7 @@ def main():
     """Main evaluation function."""
     import argparse
     
-    parser = argparse.ArgumentParser(description="Evaluate ML models for SlackOPS-Preprocessor")
+    parser = argparse.ArgumentParser(description="Evaluate AI models for Hermes Communication Intelligence System")
     parser.add_argument("--benchmark", action="store_true", help="Run performance benchmark")
     parser.add_argument("--compare", action="store_true", help="Compare sample outputs")
     parser.add_argument("--num-samples", type=int, default=100, help="Number of samples for evaluation")

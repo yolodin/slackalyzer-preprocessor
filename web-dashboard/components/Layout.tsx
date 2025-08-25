@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     <div className="flex justify-between items-center h-16">
                         <div className="flex items-center">
                             <h1 className="text-xl font-semibold text-gray-900">
-                                SlackOPS Preprocessor
+                                Hermes
                             </h1>
                             <span className="ml-2 px-2 py-1 text-xs font-medium bg-primary-100 text-primary-800 rounded-full">
                                 MVP Dashboard

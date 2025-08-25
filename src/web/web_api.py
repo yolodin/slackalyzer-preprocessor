@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Web API bridge for SlackOPS-Preprocessor.
-Provides REST API endpoints for the Next.js dashboard.
+Web API bridge for Hermes Communication Intelligence System.
+Provides REST API endpoints for the React dashboard.
 """
 
 import json

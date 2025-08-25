@@ -1,8 +1,8 @@
-# Slack Data Adapter Integration
+# Hermes Data Adapter Integration
 
 ## Integration Status
 
-The Slack Data Adapter has been integrated with your ML pipeline without modifying any existing code. The adapter processes your Slack export files and converts them into a format compatible with the existing pipeline.
+The Hermes Data Adapter seamlessly integrates with the AI processing pipeline without modifying any existing code. The adapter processes your Slack export files and converts them into a standardized format compatible with all Hermes analysis capabilities.
 
 ## What It Does
 
@@ -207,4 +207,4 @@ Key benefits:
 - Comprehensive data validation and quality reporting
 - Production-ready error handling and performance optimization
 
-The adapter successfully processes multiple export formats and generates high-quality standardized data suitable for ML training and analysis. 
+The adapter successfully processes multiple export formats and generates high-quality standardized data suitable for AI training and analysis with Hermes. 
